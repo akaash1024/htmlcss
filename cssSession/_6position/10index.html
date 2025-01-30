@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #232323;
+            color: gold;
+        }
+
+        h1 {
+            position: relative;
+            z-index: 2; /* Place text above the red line */
+        }
+
+        .red--color {
+            width: 165px;
+            height: 10px;
+            background-color: red;
+            position: absolute;
+            top: 50px;
+            z-index: 1; /* Place red line behind the text */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            Hello I am from Kanpur
+            <span>
+                Uttar Pradesh
+                <div class="child"></div>
+            </span>
+        </h1>
+    </div>
+</body>
+</html>

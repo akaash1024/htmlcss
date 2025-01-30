@@ -1,0 +1,35 @@
+:root {
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
+}
+
+html, body {
+    background: var(--beige);
+    color: var(--red);
+}
+
+h1, p {
+    color: var(--red);
+}
+
+#navbar a {
+    color: var(--red);
+}
+
+.item {
+    /* from here line:22 ////  line 12. and line.26 would be affect as its child*/
+    --red: #de0f08;  
+    background: var(--yellow);
+}
+
+button {
+    background: var(--red);
+    color: var(--yellow);
+}
+
+/*
+
+#ff8e69
+
+*/
