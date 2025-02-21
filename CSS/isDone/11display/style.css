@@ -66,7 +66,7 @@ body {
 
 #main-heading {
   color: #1e1403;
-  text-align: left;
+  text-align: center;
   font-size: 64px;
   margin-bottom: 30px;
 }
@@ -103,8 +103,8 @@ a {
   border: 1px solid red;
   margin-top: 100px;
   margin-right: 30px;
-  /* display: inline-block; */
   display: block;
+  /* display: inline-block; */
 }
 
 /* this is just to for styling th background */
@@ -112,6 +112,7 @@ p:nth-of-type(2),
 a:nth-of-type(2),
 .inline-block-elem:last-child {
   background: linear-gradient(to right, #514a9d, #24c6dc);
+  display: inline-block;
   display: none;
 }
 

@@ -1,0 +1,14 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.item3 {
+  flex-basis: 200px;
+}

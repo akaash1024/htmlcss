@@ -1,4 +1,4 @@
-/** ------------------------------------- -->
+/* * ------------------------------------- -->
 /**  TEXT PROPERTIES IN CSS  
 /** ---------------------------------------- -->
 
@@ -58,16 +58,17 @@ body {
 h1 {
   font-size: 54px;
   font-weight: 900;
-  /*?textpropertiesstartshere*/
+
+  /* ?textpropertiesstartshere */
   text-align: left;
   text-decoration-line: underline;
-  -moz-text-decoration-line: underline;
+  /* -moz-text-decoration-line: underline; */
   text-decoration-color: red;
-  -moz-text-decoration-color: red;
+  /* -moz-text-decoration-color: red; */
   text-decoration-thickness: 10px;
   text-decoration-style: solid;
-  -moz-text-decoration-style: solid;
-  text-transform: capitalize;
+  /* -moz-text-decoration-style: solid; */
+  /* text-transform: capitalize; */
   text-shadow: -2px -2px 5px rgba(255, 0, 0, 0.2);
 }
 
